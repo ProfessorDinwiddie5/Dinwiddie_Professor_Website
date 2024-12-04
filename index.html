@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chipotle</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <aside id="side-menu" class="side-menu">
+        <button class="close-menu" onclick="closeNav()">X</button>
+        <div id="menu-links" class="menu-links">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contacts</a>
+        </div>
+    </aside>
+    <header class="header">
+        <img src="images/chipotle-logo.svg" width="60" height="60" alt="logo">
+        <nav class="chipotle-menu">
+            <a href="#" class="nav-link">Menu</a>
+            <a href="#" class="nav-link">Catering</a>
+            <a href="#" class="nav-link">Rewards</a>
+            <a href="#" class="nav-link">Our Values</a>
+            <a href="#" class="nav-link">Nutrition</a>
+        </nav>
+        <button class="h-menu-icon" onclick="openNav()">menu</button>
+    </header>
+    <section class="hero-image">
+        <div class="row flex-wrap">
+            <div class="col-lg-6 col-md-12">
+                <h1 class="title">lifestyle bowls</h1>
+                <p class="description">The feel good, taste good way to Keto,Whole 30, Paleo, and Plant Powered with Lifestyle Bowls </p>
+                <a href="#" class="btn">Order now</a>
+            </div>
+        </div>
+    </section>
+    <section class="px-3 py-5">
+        <!-- Every time a row flex-wrap is called, remember to define columns -->
+        <div class="row flex-wrap justify-center">
+            <div class="col-lg-10 col-md-12">
+                <!-- All menu item row flex-wraps go here -->
+                 <!-- row flex-wrap 1 -->
+                <div class="row flex-wrap">
+                    <div class="col-lg-4 col-md-12 col-md-12 margin-bottom-lg">
+                        <article class="text-center position-relative" onclick="openPopup()">
+                            <div class="popup">
+                                <span id="Popup" class="popuptext">Here is some info text...</span>
+                            </div>
+                            <img src="images/1-burrito.png" width="400" height="225" alt="chicken burrito">
+                            <h2>Chicken Burrito</h2>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-12 margin-bottom-lg">
+                        <article class="text-center">
+                            <img src="images/2-burrito-bowl.png" width="400" height="225" alt="chicken burrito">
+                            <h2>Chicken Burrito</h2>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-12 margin-bottom-lg">
+                        <article class="text-center">
+                            <img src="images/3-lifestyle.png" width="400" height="225" alt="chicken burrito">
+                            <h2>Chicken Burrito</h2>
+                        </article>
+                    </div>
+                </div>
+                <!-- row flex-wrap 2-->
+                <div class="row flex-wrap">
+                    <div class="col-lg-4 col-md-12 margin-bottom-lg">
+                        <article class="text-center">
+                            <img src="images/1-burrito.png" width="400" height="225" alt="chicken burrito">
+                            <h2>Chicken Burrito</h2>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-12 margin-bottom-lg">
+                        <article class="text-center">
+                            <img src="images/2-burrito-bowl.png" width="400" height="225" alt="chicken burrito">
+                            <h2>Chicken Burrito</h2>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-12 margin-bottom-lg">
+                        <article class="text-center">
+                            <img src="images/3-lifestyle.png" width="400" height="225" alt="chicken burrito">
+                            <h2>Chicken Burrito</h2>
+                        </article>
+                    </div>
+                </div>
+                <!-- row flex-wrap 3-->
+                <div class="row flex-wrap justify-center">
+                    <div class="col-lg-4 col-md-12 margin-bottom-lg">
+                        <article class="text-center">
+                            <img src="images/1-burrito.png" width="400" height="225" alt="chicken burrito">
+                            <h2>Chicken Burrito</h2>
+                        </article>
+                    </div>
+                    <div class="col-lg-4 col-md-12 margin-bottom-lg">
+                        <article class="text-center">
+                            <img src="images/2-burrito-bowl.png" width="400" height="225" alt="chicken burrito">
+                            <h2>Chicken Burrito</h2>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-image">
+        <div class="row flex-wrap justify-center">
+            <div class="col-lg-10 text-center no-pad">
+                <h2>The faster way to free chipotle</h2>
+                <p>Earn points just for ordering your faves and cash them out for a variety of rewards in the Rewards Exchange. Check out your Extras for ways to unlock extra points and collect exclusive badges. Not a member yet? Join now to start earning.</p>
+                <a href="#" class="btn">Sign up</a>
+            </div>
+        </div>
+    </section>
+    <section class="px-3 py-5">
+        <div class="row flex-wrap justify-center">
+            <div class="col-lg-10 col-md-12 no-pad">
+                <div class="row flex-wrap">
+                    <div class="col-lg-6 col-md-12 mb-3"> 
+                        <article class="two-col-card">
+                            <div class="col-lg-6 no-pad">
+                                <img src="images/avacados.png" alt="avacados" width="600"> 
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card-text">
+                                    <h4>Your goals. Your Bowls</h4>
+                                    <p>Lifestyle Bowls make
+                                        it easy to eat real.
+                                        Explore our always
+                                        made fresh bowls
+                                        customized for you
+                                        whether you’re Keto,
+                                        Whole30, Paleo or
+                                        Plant Powered. Order
+                                        now with a $0 Delivery
+                                        Fee*.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col-lg-6 col-md-12"> 
+                        <article class="two-col-card">
+                            <div class="col-lg-6 no-pad">
+                                <img src="images/gift-cards.png" alt="gift cards" width="600">
+                            </div>
+                            <div class="col-lg-6"> 
+                                <div class="card-text">
+                                    <h4>Your goals. Your Bowls</h4>
+                                    <p>Lifestyle Bowls make
+                                        it easy to eat real.
+                                        Explore our always
+                                        made fresh bowls
+                                        customized for you
+                                        whether you’re Keto,
+                                        Whole30, Paleo or
+                                        Plant Powered. Order
+                                        now with a $0 Delivery
+                                        Fee*.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        function closeNav() {
+            document.getElementById("side-menu").style.width = "0";
+        }
+        function openNav() {
+            document.getElementById("side-menu").style.width = "250px";
+        }
+        function openPopup() {
+            var popup = document.getElementById("Popup");
+            popup.classList.toggle("show");
+        }
+    </script>
+</body>
+</html>
